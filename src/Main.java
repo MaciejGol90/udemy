@@ -17,14 +17,15 @@ public class Main {
         System.out.println(c);
         System.out.println(bba.wys);
 
-        new Punkt();
-        Punkt p;
-        p =new Punkt();
-//        p.x=5;
-//        p.y = 6;
+        Punkt p = new Punkt(10,22);
+        Punkt p2= new Punkt(101,221);
+
+
 
         System.out.println("p.x: "+ p.x);
         System.out.println("p.y: "+ p.y);
+        System.out.println("p2.x: "+ p2.x);
+        System.out.println("p2.y: "+ p2.y);
     }
 }
 class Monitor{
@@ -35,8 +36,12 @@ class Monitor{
 class Punkt{
     Punkt(){
         System.out.println("Wywołano");
-        x=20;
-        y=25;
+
+    }
+    Punkt(int pierwszy, int drugi){
+        System.out.println("Wywołano konstruktor z dwioma paramertami");
+        x= pierwszy;
+        y=drugi;
     }
     int x;
     int y;
