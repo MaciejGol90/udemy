@@ -1,48 +1,42 @@
-import java.sql.SQLOutput;
-
 public class Main {
 
     public static void main(String[] args) {
-        int a, b, c;
-        a = 421212121;
-        b = 5;
-        c = a * b;
 
-        Monitor abc = new Monitor();
-        abc.szer = 123;
-        Monitor bba = new Monitor();
-        bba.szer = 223;
-        bba.wys = 144;
+        Test a = new Test();
+        a.wypisz("Sławomir", "Gol", 28);
 
-        System.out.println(c);
-        System.out.println(bba.wys);
-
-        Punkt p = new Punkt(10,22);
-        Punkt p2= new Punkt(101,221);
+        Test a2 = new Test();
+        a2.wypisz("Wiolka", "Wala", 300);
 
 
+        int wynik =a.dodaj(10,220);
+        System.out.println(wynik);
 
-        System.out.println("p.x: "+ p.x);
-        System.out.println("p.y: "+ p.y);
-        System.out.println("p2.x: "+ p2.x);
-        System.out.println("p2.y: "+ p2.y);
+
+        double wynik2 = a.dzielenie(200,1);
+        System.out.println(wynik2);
+
+
     }
 }
-class Monitor{
-    int szer;
-    int wys;
+
+class Test {
+    void wypisz(String imie, String nazwisko, int age) {
+        String me = "Imie: "+imie + " Nazwisko: " + nazwisko + " wiek: " + age;
+        System.out.println(me);
+    }
+
+    int dodaj(int a, int b) {
+
+        return a+b;
+    }
+
+double dzielenie (double a, double b){
+        if (b ==0)
+        return 0;
+    System.out.println("Pamiętaj cholero nie dziel prze zero");
+
+    return a/b;
 }
 
-class Punkt{
-    Punkt(){
-        System.out.println("Wywołano");
-
-    }
-    Punkt(int x, int y){
-        System.out.println("Wywołano konstruktor z dwioma paramertami");
-        this.x= x;
-        this.y=y;
-    }
-    int x;
-    int y;
 }
