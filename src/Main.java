@@ -9,12 +9,14 @@ public class Main {
         a2.wypisz("Wiolka", "Wala", 300);
 
 
-        int wynik =a.dodaj(10,220);
-        System.out.println(wynik);
+//        int wynik =a.dodaj(10,220);
+//        System.out.println(wynik);
 
-
-        double wynik2 = a.dzielenie(200,1);
+        double wynik2 = a.dzielenie(22100.21,1.212);
         System.out.println(wynik2);
+
+        double wynik = a.dodaj(2.21,1.212);
+        System.out.println(wynik);
 
 
     }
@@ -30,13 +32,15 @@ class Test {
 
         return a+b;
     }
-
-double dzielenie (double a, double b){
-        if (b ==0)
+    double dodaj(double a, double b){
+        return  a+b;
+    }
+double dzielenie (double c, double d){
+        if (d ==0)
         return 0;
     System.out.println("Pamiętaj cholero nie dziel prze zero");
 
-    return a/b;
+    return c/d;
 }
 
 }
