@@ -38,10 +38,10 @@ class Punkt{
         System.out.println("Wywołano");
 
     }
-    Punkt(int pierwszy, int drugi){
+    Punkt(int x, int y){
         System.out.println("Wywołano konstruktor z dwioma paramertami");
-        x= pierwszy;
-        y=drugi;
+        this.x= x;
+        this.y=y;
     }
     int x;
     int y;
