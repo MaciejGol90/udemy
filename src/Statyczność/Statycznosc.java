@@ -1,4 +1,4 @@
-package statyczność;
+package Statyczność;
 
 public class Statycznosc {
 
