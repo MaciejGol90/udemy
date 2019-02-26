@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8e2e7ca5-a96f-41c2-89b9-d4dd44bceba8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/referencje/Foo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/compare/Compare.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/udemy/referencje/Referencje.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/udemy/referencje/Referencje.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/udemy/referencje/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/udemy/referencje/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/referencje/Referencje.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/referencje/Referencje.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/referencje/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/referencje/Test.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,11 +17,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/referencje/Referencje.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="316">
-              <caret line="35" column="28" selection-start-line="35" selection-start-column="28" selection-end-line="35" selection-end-column="28" />
+            <state relative-caret-position="420">
+              <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/compare/Compare.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="40" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -89,6 +94,7 @@
         <option value="$PROJECT_DIR$/src/referencje/Foo.java" />
         <option value="$PROJECT_DIR$/src/referencje/Test.java" />
         <option value="$PROJECT_DIR$/src/referencje/Referencje.java" />
+        <option value="$PROJECT_DIR$/src/compare/Compare.java" />
       </list>
     </option>
   </component>
@@ -118,6 +124,12 @@
               <item name="udemy" type="b2602c69:ProjectViewProjectNode" />
               <item name="udemy" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="udemy" type="b2602c69:ProjectViewProjectNode" />
+              <item name="udemy" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="compare" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="udemy" type="b2602c69:ProjectViewProjectNode" />
@@ -159,7 +171,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551173676803" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551174077171" />
     <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.file-colors" />
   </component>
   <component name="RunDashboard">
@@ -174,7 +186,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Compare">
+    <configuration name="Compare" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="compare.Compare" />
+      <module name="udemy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="compare.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -186,8 +211,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.Compare" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Compare" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -204,15 +234,16 @@
       <updated>1545052041323</updated>
       <workItem from="1545052046047" duration="1358000" />
       <workItem from="1550755299894" duration="13140000" />
-      <workItem from="1551172311889" duration="1457000" />
+      <workItem from="1551172311889" duration="1728000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15955000" />
+    <option name="totallyTimeSpent" value="16226000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25679544" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -360,8 +391,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/referencje/Referencje.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="35" column="28" selection-start-line="35" selection-start-column="28" selection-end-line="35" selection-end-column="28" />
+        <state relative-caret-position="420">
+          <caret line="42" lean-forward="true" selection-start-line="42" selection-end-line="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/compare/Compare.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="40" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
         </state>
       </provider>
     </entry>
