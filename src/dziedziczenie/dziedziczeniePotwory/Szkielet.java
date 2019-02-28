@@ -2,6 +2,10 @@ package dziedziczenie.dziedziczeniePotwory;
 
 public class Szkielet extends Potwor {
 
+    public void atakuj(){
+        System.out.println("To jest medoda atakuj w szkieletem!!!");
+    }
+
     String typBroni;
     public Szkielet() {
         System.out.println("Domyslny konstruktor z klasy Szkielet");

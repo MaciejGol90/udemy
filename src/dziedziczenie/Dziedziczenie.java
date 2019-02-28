@@ -13,6 +13,8 @@ public class Dziedziczenie {
 
         Szkielet s = new Szkielet(20, 50, "kosa");
         Zombie z = new Zombie();
+        s.atakuj();
+        z.atakuj();
 
 
 
