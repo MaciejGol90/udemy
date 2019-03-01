@@ -13,7 +13,9 @@ public class Szkielet extends Potwor {
 
 
     public Szkielet(double predkoscChodzenia, double zywotnosc) {
+
         super(predkoscChodzenia,zywotnosc);
+        System.out.println("Niedomyślny konstruktor klasy Szkielet z dwoma argumentami");
 
     }
         public Szkielet(double predkoscChodzenia, double zywotnosc, String typBroni) {
