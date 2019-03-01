@@ -22,5 +22,7 @@ public class Szkielet extends Potwor {
         super(predkoscChodzenia, zywotnosc);
         this.typBroni = typBroni;
         System.out.println("Niedomyslny konstruktor z klasy Szkielet");
+
     }
+
 }

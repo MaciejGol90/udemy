@@ -1,8 +1,8 @@
 package dziedziczenie.dziedziczeniePotwory;
 
 public class Potwor {
-    double predkoscChodzenia = 10;
-    double zywotnosc;
+    protected double predkoscChodzenia = 10;
+    protected double zywotnosc;
 
     public double getPredkoscChodzenia() {
         return predkoscChodzenia;
