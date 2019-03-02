@@ -12,6 +12,9 @@ public abstract class Potwor {
         return zywotnosc;
     }
 
+     abstract protected void opis();
+
+
     public void atakuj(){
 
         System.out.println("To jest metoda atakuj z klasy potwor");

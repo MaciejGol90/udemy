@@ -9,8 +9,12 @@ public class Dziedziczenie {
 
         Potwor p = new Szkielet(10, 100);
         Potwor p2 = new Zombie();
+
         p2.atakuj();
         p.atakuj();
+
+        Potwor p3 = new Pajak(40,120);
+        p3.getPredkoscChodzenia();
 //        System.out.println(p.getPredkoscChodzenia());
 //
 //        Szkielet s = new Szkielet(20, 50, "kosa");
