@@ -2,10 +2,7 @@ package dziedziczenie.dziedziczeniePotwory;
 
 public class Szkielet extends Potwor {
 
-    @Override
-    void opis() {
 
-    }
 
     public void atakuj(){
         System.out.println("To jest medoda atakuj w szkieletem!!!");

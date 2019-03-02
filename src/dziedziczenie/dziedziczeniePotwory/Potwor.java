@@ -1,8 +1,8 @@
 package dziedziczenie.dziedziczeniePotwory;
 
 public abstract class Potwor {
-    protected double predkoscChodzenia = 10;
-    protected double zywotnosc;
+    public double predkoscChodzenia = 10;
+    public double zywotnosc;
 
     public double getPredkoscChodzenia() {
         return predkoscChodzenia;
@@ -12,7 +12,7 @@ public abstract class Potwor {
         return zywotnosc;
     }
 
-     abstract protected void opis();
+
 
 
     public void atakuj(){

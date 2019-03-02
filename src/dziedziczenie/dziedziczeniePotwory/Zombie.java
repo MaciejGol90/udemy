@@ -1,10 +1,6 @@
 package dziedziczenie.dziedziczeniePotwory;
 
 public class Zombie extends Potwor {
-    @Override
-    void opis() {
-
-    }
 
     @Override
     public void atakuj() {
