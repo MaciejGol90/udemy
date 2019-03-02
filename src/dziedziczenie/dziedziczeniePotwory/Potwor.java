@@ -1,6 +1,6 @@
 package dziedziczenie.dziedziczeniePotwory;
 
-public class Potwor {
+public abstract class Potwor {
     protected double predkoscChodzenia = 10;
     protected double zywotnosc;
 
