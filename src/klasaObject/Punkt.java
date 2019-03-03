@@ -22,10 +22,18 @@ public class Punkt {
     }
 
     @Override
-    public boolean equals(Object obj) {
+    public boolean equals(Object o) {
+
+        Punkt przyslany = (Punkt) o;
+
+        if (o == null)
+            return false;
+        if (this.getClass()!= o.getClass())
+            return false;
 
 
+        return this.x == przyslany.x && this.y == przyslany.y;
 
-        return false;
+
     }
 }
