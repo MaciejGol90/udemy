@@ -5,10 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8e2e7ca5-a96f-41c2-89b9-d4dd44bceba8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/klasyWewnetrzne/A.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/klasyWewnetrzne/MainKlasyWewnetrzne.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/udemy/interfejsy/MainInterfejs.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/udemy/interfejsy/MainInterfejs.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/klasyWewnetrzne/MainKlasyWewnetrzne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/klasyWewnetrzne/MainKlasyWewnetrzne.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,8 +24,14 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/klasyWewnetrzne/MainKlasyWewnetrzne.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+            <state relative-caret-position="194">
+              <caret line="13" column="31" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
+              <folding>
+                <element signature="e#346#347#0" expanded="true" />
+                <element signature="e#388#389#0" expanded="true" />
+                <element signature="e#330#331#0" expanded="true" />
+                <element signature="e#362#363#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -267,7 +270,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551714623792" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551715990372" />
     <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.file-colors" />
   </component>
   <component name="RunDashboard">
@@ -344,12 +347,12 @@
       <updated>1545052041323</updated>
       <workItem from="1545052046047" duration="1358000" />
       <workItem from="1550755299894" duration="13140000" />
-      <workItem from="1551172311889" duration="21258000" />
+      <workItem from="1551172311889" duration="22629000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35756000" />
+    <option name="totallyTimeSpent" value="37127000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -707,8 +710,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/klasyWewnetrzne/MainKlasyWewnetrzne.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+        <state relative-caret-position="194">
+          <caret line="13" column="31" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
+          <folding>
+            <element signature="e#346#347#0" expanded="true" />
+            <element signature="e#388#389#0" expanded="true" />
+            <element signature="e#330#331#0" expanded="true" />
+            <element signature="e#362#363#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
