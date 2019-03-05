@@ -1,7 +1,7 @@
 package agregacja;
 
 public class Adres {
-    String  ulica;
+    String ulica;
     int nrDomu;
 
     public Adres(String ulica, int nrDomu) {

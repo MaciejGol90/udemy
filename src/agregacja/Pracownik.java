@@ -7,12 +7,10 @@ public class Pracownik {
     public Pracownik(String imie, Adres adres) {
         this.imie = imie;
         this.adres = adres;
-    P
-
     }
 
     @Override
     public String toString() {
-        return this.imie+": " + adres.ulica +" "+ adres.nrDomu;
+        return this.imie + ": " + adres.ulica + " " + adres.nrDomu;
     }
 }
